@@ -1,0 +1,9 @@
+You can add up to 10 buttons. There is currently no way to delete a button.
+
+Method summary: 
+Call init_buttons before the start of your program.
+Call make_button to add a buton given the left coordinate, top coordinate and text (max 10 characters).
+Call select_button with the desired button index to initialize the selection.
+Call move_button_left and move_button_right to change the selection.
+Call reset_selections to go back to not having any selected button.
+Call get_selected_button to get the index of the currently selected button (returns -1 for no selection).
